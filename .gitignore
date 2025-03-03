@@ -1,0 +1,15 @@
+echo "
+# Ignore dataset files
+path_to_dataset_folder/
+*.mp4
+*.csv  # If dataset includes CSV files
+*.zip  # If dataset is zipped
+*.MOV
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+__pycache__/
+" > .gitignore
